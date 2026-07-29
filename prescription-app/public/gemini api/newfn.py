@@ -9,7 +9,7 @@ from google.genai import types
 # --- 1. CONFIGURATION ---
 
 # IMPORTANT: Best practice is to set your API key as an environment variable (GEMINI_API_KEY).
-API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBjgsuyPWFd2-uJn2r8Ax2AopztVvF2748")
+API_KEY = os.getenv("GEMINI_API_KEY", "")
 
 # Define your image paths here. 
 IMAGE_DIRECTORY = r"C:\Users\John\Desktop\generalbarca\hackathon project"
